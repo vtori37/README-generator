@@ -1,71 +1,37 @@
-# Professional README Generator Starter Code
+# README Generator
+  ![MIT Badge](https://img.shields.io/badge/License-MIT-green)
+***
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+## Description
+This application generates a readme document. 
 
+## Table of Contents 
+* [Website](#website)
+* [Contributors](#contributors)
+* [Credits](#credits)
 
-<!--
-User Story
+## Website
+Here is a link to the live website:
+[README Generator](There is none)
 
-I WANT a README generator
-SO THAT:
-- I can quickly create a professional README for a new project
+## Installation 
+First, install inquirer. 
 
+## Usage
+Instead of creating a new readme every time a user creates a project, this generator will ask the individual information for them to quickly input info for their readme.
 
-Acceptance Criteria
+## Test
+Here is a demonstration of the application.
+undefined
 
-GIVEN a command-line application that accepts user input:
+## Contributors
+[Victoria Rice](https://github.com/vtori37?tab=repositories)
 
-WHEN I am prompted for information about my application repository
-  - a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-
-WHEN I enter my project title
-  - THEN this is displayed as the title of the README
-
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-  - THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-
-*note from Me: "notes for future releases"
-
-WHEN I choose a license for my application from a list of options
-  - THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-
-WHEN I enter my GitHub username
-  - THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-
-WHEN I enter my email address
-  - THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-
-WHEN I click on the links in the Table of Contents
-  - THEN I am taken to the corresponding section of the README 
- -->
-
-
-
-
- <!-- ## Table of Contents 
-* [Description](#Description)
-* [Website](#Website)
-* [Technologies](#Technologies)
-* [Author](#Author)
-
-
-## Description 
-This application generates a portfolio by asking the user a series of questions.
-
-![Homepage](./screenshot.png)
-
-## Deployed Website
-Here is a link to the deployed website:
-[Portfolio Generator](https://github.com/vtori37/portfolio-generator)
-
-## Technologies
+### Questions
+If you have any questions or concerns regarding this project, feel free to reach out to Victoria Rice at vrice
+## Credits
 * HTML5
-* CSS
-* JS 
-* Node.js
+* CSS 
+* JS
+--- 
 
-
-## Author
-* [Victoria Rice](https://github.com/vtori37)
- 
-*** -->
