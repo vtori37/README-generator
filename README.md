@@ -50,7 +50,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 
-# Questions
+### Questions
 If you have any questions or concerns regarding this project, feel free to reach out to Victoria Rice at vrice360@gmail.com
 --- 
 
