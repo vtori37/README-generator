@@ -43,12 +43,32 @@ const promptUser = [
       type: 'confirm',
       name: 'choiceOther',
       message: 'Do you have a license not listed above?',
+      default: false
     },
     {
       type: 'input',
       name: 'otherLicense',
-      message: 'Please type the license.'
+      message: 'Please type the license.',
+      when: ({choiceOther}) => choiceOther,
     },
+    // {
+    //   type: 'checkbox',
+    //   name: 'technology',
+    //   message: 'Please select the technology used from the following list.',
+    //   choices: ['* HTML 5', '* JavaScript', ' CSS'],      
+    // },
+    // {
+    //   type: 'confirm',
+    //   name: 'techConfirm',
+    //   message: 'Would you like enter in more technology?',
+    //   default: false
+    // },
+    // {
+    //   type: 'input',
+    //   name: 'moreTech',
+    //   message: 'Please insert additional Technology.',
+    //   when: ({techConfirm}) => techConfirm,
+    // },
     {
       type: 'confirm',
       name: 'contributorConfirm',
@@ -82,12 +102,12 @@ const promptUser = [
     // TODO: Create a function to initialize app
     //data is user responses
     function init() {
-      inquirer.prompt(promptUser)
+      inquirer
+      .prompt(promptUser)
       .then(data => {
         console.log('generateREADME');
         writeToFile("README.md", generateMarkdown(data));
-      });
-      
+      })      
 }
 
 // Function call to initialize app
@@ -95,28 +115,4 @@ init();
 
 
 
-// // TODO: Include packages needed for this application
-// const fs = require("fs");
-// const inquirer = require("inquirer");
-// // const {writeFile}
-// // const inquirer = require("")
 
-// // TODO: Create an array of questions for user input
-// // application repo info should ask: title of project, sections, entitled description,
-// // Table of contents, Installation
-// // usage, license (badges) , contributors, contribution guidelines, tests, and questions
-// const questions = [
-// return inquirer.prompt([
-
-//   type
-// ])
-// ];
-
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();
