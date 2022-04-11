@@ -2,7 +2,7 @@
 ![MIT Badge](https://img.shields.io/badge/License-MIT-green)
 
 ## Description
-This application generates a README application using Node.js and npm. 
+This application generates a README application using Node.js and the npm inquirer package. 
 
 ## Table of Contents 
 * [Website](#Website)
@@ -21,7 +21,7 @@ Here is a link to the live website:
 [README Generator](https://github.com/vtori37/README-generator)
 
 ## Installation 
-The user must install the package inquirer. This can be done by writing "npm install inquirer" in the command line. Once that is done, the user must set up the inquirer variable and provide question prompts. 
+The user must install the package inquirer. This can be done by writing "npm install inquirer" in the command line. Once that is done, the user must set up the inquirer variable and provide question prompts.
 
 ## Usage
 This generator can be used as a tool that quickly creates a README file that will be used in GitHub repositories.
@@ -52,5 +52,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### Questions
 If you have any questions or concerns regarding this project, feel free to reach out to Victoria Rice at vrice360@gmail.com
---- 
+
 
