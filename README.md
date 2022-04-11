@@ -28,7 +28,7 @@ This generator can be used as a tool that quickly creates a README file that wil
 
 ## Test
 Here is a demonstration of the application.
-[Click here to view the video demo](https://user-images.githubusercontent.com/95240889/162672338-1c60da14-9ac5-4280-b86b-d42db90e4d71.mp4)]
+[Click here to view the video demo](https://user-images.githubusercontent.com/95240889/162672338-1c60da14-9ac5-4280-b86b-d42db90e4d71.mp4)
 
 ## Contributors
 
