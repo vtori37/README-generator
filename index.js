@@ -37,7 +37,17 @@ const promptUser = [
       type: 'checkbox',
       name: 'license',
       message: 'Please select the license(s) used from the following list.',
-      choices: ['MIT', '', '', '', '']
+      choices: ['MIT', 'Apache-2', 'GPLv2', 'other', 'none'],      
+    },
+    {
+      type: 'confirm',
+      name: 'choiceOther',
+      message: 'Do you have a license not listed above?',
+    },
+    {
+      type: 'input',
+      name: 'otherLicense',
+      message: 'Please type the license.'
     },
     {
       type: 'confirm',
@@ -63,20 +73,21 @@ const promptUser = [
     },
     ];
     
-
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-return fs.writeFileSync(path.join(process.cwd(), fileName),data);
-}
-
-// TODO: Create a function to initialize app
-//data is user responses
-function init() {
-  inquirer.prompt(promptUser).then(data => {
-    console.log('generateREADME');
-    writeToFile("README.md", generateMarkdown(data));
-  });
+    
+    // TODO: Create a function to write README file
+    function writeToFile(fileName, data) {
+      return fs.writeFileSync(path.join(process.cwd(), fileName),data);
+    }
+    
+    // TODO: Create a function to initialize app
+    //data is user responses
+    function init() {
+      inquirer.prompt(promptUser)
+      .then(data => {
+        console.log('generateREADME');
+        writeToFile("README.md", generateMarkdown(data));
+      });
+      
 }
 
 // Function call to initialize app
